@@ -16,7 +16,7 @@ const Landing = () => {
                     </div>
                     <p className={styles.text}>I believe you have a unique taste, discover the</p>
                     <p className={styles.text}>endless possibilities of the NFT world</p>
-                    <Link to={'/home'}>
+                    <Link to={'/explore'}>
                         <button className={styles.button}>Explore now</button>
                     </Link>
                 </div>

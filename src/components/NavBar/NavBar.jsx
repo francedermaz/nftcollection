@@ -12,8 +12,8 @@ const NavBar = () => {
                     </Link>
                 </div>
                 <div className={styles.menu}>
-                    <Link to={'/home'}>
-                        <h1 className={styles.title}>Home</h1>
+                    <Link to={'/explore'}>
+                        <h1 className={styles.title}>Explore</h1>
                     </Link>
                     <Link to={'/about'}>
                         <h1 className={styles.title}>About</h1>

@@ -39,10 +39,10 @@
 
 .img{
     width: 70vh;
-    -webkit-filter: drop-shadow(2px 2px 0 #ba51f6)
-    drop-shadow(-2px -2px 0 #ba51f6);
-    filter: drop-shadow(2px 2px 0 #ba51f6) 
-    drop-shadow(-2px -2px 0 #ba51f6);
+    -webkit-filter: drop-shadow(7px 7px 0 #ba51f6)
+    drop-shadow(-7px -7px 0 #ba51f6);
+    filter: drop-shadow(7px 7px 0 #ba51f6) 
+    drop-shadow(-7px -7px 0 #ba51f6);
 }
 
 .button{

@@ -1,15 +1,13 @@
 import { Link } from 'react-router-dom';
 import NavBar from '../NavBar/NavBar';
 import styles from './Landing.module.css';
+import statue from './assets/statue.png';
 
 const Landing = () => {
     return(
         <div>
             <NavBar/>
             <div className={styles.page}>
-                <div className={styles.imgdiv}>
-                    
-                </div>
                 <div className={styles.textland}>
                     <h1 className={styles.titleone}>Extraordinary</h1>
                     <div>
@@ -21,6 +19,9 @@ const Landing = () => {
                     <Link to={'/home'}>
                         <button className={styles.button}>Explore now</button>
                     </Link>
+                </div>
+                <div className={styles.imgdiv}>
+                    <img className={styles.img} src={statue} alt="mainimg"/>
                 </div>
             </div>
         </div>

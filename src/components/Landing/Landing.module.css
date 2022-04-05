@@ -1,0 +1,22 @@
+.page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textland{
+    text-align: left;
+}
+
+.titleone, .nft, .text{
+    color:white;
+}
+
+.img{
+    width: 70vh;
+    -webkit-filter: drop-shadow(2px 2px 0 #ba51f6)
+    drop-shadow(-2px -2px 0 #ba51f6);
+    filter: drop-shadow(2px 2px 0 #ba51f6) 
+    drop-shadow(-2px -2px 0 #ba51f6);
+}
+

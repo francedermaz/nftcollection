@@ -27,7 +27,7 @@
 }
 
 .nft{
-    color: #d080ff;
+    color: #ba51f6;
     font-style: italic;
 }
 
@@ -47,5 +47,23 @@
 
 .button{
     margin-top: 2em;
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #ba51f6;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 12px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.button:hover{
+    cursor: pointer;
+    color: #111;
+    background: #ba51f6;
+    box-shadow: 0 0 50px #ba51f6;
+    border-color:transparent;
 }
 

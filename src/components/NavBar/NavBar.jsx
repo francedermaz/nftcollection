@@ -15,12 +15,12 @@ const NavBar = () => {
                     <Link to={'/home'}>
                         <h1 className={styles.title}>Home</h1>
                     </Link>
-                    <Link to={'/contact'}>
-                        <h1 className={styles.title}>Contact</h1>
+                    <Link to={'/about'}>
+                        <h1 className={styles.title}>About</h1>
                     </Link>
                     <div className={styles.div}>
                         <Link to={'/account'}>
-                            <button>Connect</button>
+                            <button className={styles.button}>Connect</button>
                         </Link>
                     </div>
                 </div>

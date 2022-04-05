@@ -41,7 +41,7 @@ a:link, a:visited, a:active {
 
 .img{
     user-select: none; 
-    width: 80%;
+    width: 17vh;
     vertical-align: middle;
     font-style: italic;
 }

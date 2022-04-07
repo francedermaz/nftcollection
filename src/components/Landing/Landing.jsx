@@ -5,7 +5,7 @@ import statue from './assets/statue.png';
 
 const Landing = () => {
     return(
-        <div>
+        <div className={styles.all}>
             <NavBar/>
             <div className={styles.page}>
                 <div className={styles.textland}>

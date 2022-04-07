@@ -1,0 +1,25 @@
+.card{
+    background-color: #1a1c1e;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 300px;
+    margin-right: 30px;
+}
+
+h2, p{
+    color: white;
+}
+
+.img{
+    width: 100%;
+}
+
+.pricecont{
+    display: flex;
+    align-items: center;
+}
+
+.eth{
+    width: 1.6vh;
+    margin-right: 0.25em;
+}

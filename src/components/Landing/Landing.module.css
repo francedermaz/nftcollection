@@ -5,6 +5,10 @@
     margin-top: 1em;
 }
 
+.all{
+    background-image: url("assets/stars.png");
+}
+
 .textland{
     text-align: left;
 }

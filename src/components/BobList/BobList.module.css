@@ -1,0 +1,9 @@
+.list{
+    display: grid;
+    margin-top: 0.8em;
+    grid-template-columns: 0.45fr 0.45fr 0.45fr;
+    grid-column-gap: 0px;
+    grid-row-gap:10px;
+    margin-left:15vh;
+    margin-right:15vh;
+}

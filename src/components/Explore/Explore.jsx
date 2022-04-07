@@ -4,6 +4,7 @@ import NavBar from '../NavBar/NavBar';
 import axios from 'axios';
 import styles from './Explore.module.css';
 import BobList from '../BobList/BobList';
+import MainNft from '../MainNft/MainNft';
 
 const Explore = () => {
     const [nfts,setNfts] = useState([]);
@@ -17,6 +18,7 @@ const Explore = () => {
     return(
         <div>
             <NavBar/>
+            <MainNft/>
             <BobList nfts={nfts}/>
         </div>
     )

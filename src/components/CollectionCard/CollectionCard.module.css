@@ -8,6 +8,14 @@
     cursor: pointer;
 }
 
+.card:hover{
+    width: 302px;
+    -webkit-filter: drop-shadow(1px 1px 0 #ba51f6)
+    drop-shadow(-1px -1px 0 #ba51f6);
+    filter: drop-shadow(1px 1px 0 #ba51f6) 
+    drop-shadow(-1px -1px 0 #ba51f6);
+}
+
 h3, p{
     color: white;
 }
